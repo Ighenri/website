@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(img/BG_image.jpg);
+
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.logo{
+    color: red;
+    font-size: 37px;
+    font-family: Arial;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+}
+ul li a{
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:red;
+    
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.search-bar{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid red;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    margin-top: 13px;
+    border: 2px solid red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: red;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.search-bar:focus{
+    outline: none;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    color: white;
+    position: relative;
+}
+
+.content .paragraph{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .join-us{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-weight: 500;
+}
+
+.content .join-us a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+.join-us:hover{
+    background-color: white;
+}
+
+.content span{
+    font-size: 60px;
+    color: red;
+}
+.form{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 250px;
+    height: 380px;
+    background: linear-gradient( to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    padding: 25px;
+    border-radius: 10px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    color: red;
+    background-color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    border-top: none;
+    border-radius: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid red;
+    background: transparent;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline-style: none;
+}
+.form ::placeholder{
+    color: white;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.buttn{
+    width: 240px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.buttn:hover{
+    color: red;
+    background-color: white;
+}
+.buttn a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.form .link{
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+}
+.link a{
+    color: red;
+   text-decoration: none;
+}
+
+.form .login{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons a{
+    background: transparent;
+    color: white;
+    width: 300px;
+    
+}
+
+.icons ion-icon{
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.4s ease;
+}
+
+.icons ion-icon:hover{
+    color: red;
+}
